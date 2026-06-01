@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+  
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">🔐 Top's Security Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="journey.html">Journey</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><button class="btn btn-sm btn-outline-light ms-2" id="themeToggle">☀️ Light Mode</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BLOG CONTENT -->
+  <div class="container mt-5">
+    <h1 class="mb-4">Blog & Security Insights</h1>
+    <p class="lead mb-5">Thoughts on cybersecurity, ethical hacking, and web development best practices.</p>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- Blog Post 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-danger mb-2">Security</span>
+            <h5 class="card-title">SQL Injection: Prevention and Detection</h5>
+            <p class="card-text">
+              SQL injection remains one of the top OWASP vulnerabilities. Learn how attackers exploit unvalidated inputs, how to spot vulnerable code patterns, and implement parameterized queries to protect your applications.
+            </p>
+            <p class="card-text"><small class="text-muted">5 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on May 20, 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-info mb-2">Web Development</span>
+            <h5 class="card-title">Building Responsive Layouts with CSS Grid & Flexbox</h5>
+            <p class="card-text">
+              Modern CSS offers powerful tools for responsive design. Explore when to use Grid vs Flexbox, container queries, and how to create layouts that work seamlessly across all devices without media query overload.
+            </p>
+            <p class="card-text"><small class="text-muted">7 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on May 18, 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-warning mb-2">Ethical Hacking</span>
+            <h5 class="card-title">OWASP Top 10: What Every Developer Must Know</h5>
+            <p class="card-text">
+              Understanding the OWASP Top 10 vulnerabilities is critical for secure development. Deep dive into each category with real-world examples and practical mitigation strategies that go beyond basic awareness.
+            </p>
+            <p class="card-text"><small class="text-muted">8 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on May 15, 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 4 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-success mb-2">Tools</span>
+            <h5 class="card-title">Burp Suite Essentials for Penetration Testing</h5>
+            <p class="card-text">
+              Master Burp Suite's core features: intercepting traffic, identifying vulnerabilities, automating scans, and leveraging Intruder for advanced testing. A practical guide with hands-on examples.
+            </p>
+            <p class="card-text"><small class="text-muted">6 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on May 10, 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 5 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-primary mb-2">Career</span>
+            <h5 class="card-title">From Self-Taught to Professional: My Learning Journey</h5>
+            <p class="card-text">
+              How I transitioned into cybersecurity and front-end development through self-study, open-source contributions, and hands-on projects. Resources, mistakes, and lessons learned along the way.
+            </p>
+            <p class="card-text"><small class="text-muted">9 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on May 5, 2025
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 6 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm blog-card">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">JavaScript</span>
+            <h5 class="card-title">Async/Await vs Promises: When to Use Each</h5>
+            <p class="card-text">
+              Understand the evolution of JavaScript async patterns. Compare callbacks, promises, and async/await syntax with practical examples, error handling patterns, and performance considerations.
+            </p>
+            <p class="card-text"><small class="text-muted">6 min read</small></p>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on April 28, 2025
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 My Portfolio + Blog. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/timeline.js"></script>
+</body>
+</html>

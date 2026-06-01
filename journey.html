@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Journey</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">🔐 Top's Security Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link active" href="journey.html">Journey</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><button class="btn btn-sm theme-toggle ms-2" id="themeToggle">☀️ Light Mode</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- JOURNEY SECTION -->
+  <div class="container mt-5 mb-5">
+    <h1 class="mb-2 text-center">My Professional Journey</h1>
+    <p class="text-center lead mb-5">From curiosity to expertise: My path through cybersecurity and web development.</p>
+
+    <!-- Timeline -->
+    <div class="timeline">
+
+      <!-- Milestone 1: The Beginning -->
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="timeline-icon">📚</span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>The Beginning: Learning Phase</h3>
+            <span class="timeline-date">2021 - 2022</span>
+          </div>
+          <button class="btn btn-sm btn-primary toggle-details">View Details</button>
+          <div class="timeline-details" style="display: none;">
+            <p class="mt-3">
+              Started my journey with a passion for understanding how systems work and how to protect them.
+              Began with foundational knowledge in networking, operating systems, and basic security concepts.
+            </p>
+            <h5 class="mt-3">Key Milestones:</h5>
+            <ul>
+              <li>Completed foundational courses in cybersecurity</li>
+              <li>Built first Python scripts for automation</li>
+              <li>Set up a home lab for experimenting with security tools</li>
+              <li>Started learning HTML and CSS basics</li>
+            </ul>
+            <h5 class="mt-3">Skills Acquired:</h5>
+            <div class="skill-badges">
+              <span class="badge bg-secondary">Networking Basics</span>
+              <span class="badge bg-secondary">Python</span>
+              <span class="badge bg-secondary">HTML/CSS</span>
+              <span class="badge bg-secondary">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestone 2: Deep Dive -->
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="timeline-icon">🔍</span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Deep Dive: Ethical Hacking Focus</h3>
+            <span class="timeline-date">2022 - 2023</span>
+          </div>
+          <button class="btn btn-sm btn-primary toggle-details">View Details</button>
+          <div class="timeline-details" style="display: none;">
+            <p class="mt-3">
+              Shifted focus to practical penetration testing and ethical hacking. Invested time in mastering
+              security testing tools and methodologies. Started participating in CTF competitions and bug bounties.
+            </p>
+            <h5 class="mt-3">Key Milestones:</h5>
+            <ul>
+              <li>Mastered Burp Suite, Metasploit, and Wireshark</li>
+              <li>Completed OWASP Top 10 deep-dive training</li>
+              <li>Participated in first CTF competition</li>
+              <li>Identified and reported first real vulnerability</li>
+              <li>Advanced JavaScript and Bootstrap skills</li>
+            </ul>
+            <h5 class="mt-3">Skills Acquired:</h5>
+            <div class="skill-badges">
+              <span class="badge bg-success">Penetration Testing</span>
+              <span class="badge bg-success">Web Security</span>
+              <span class="badge bg-success">OWASP Knowledge</span>
+              <span class="badge bg-success">Bootstrap</span>
+              <span class="badge bg-success">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestone 3: Going Professional -->
+      <div class="timeline-item">
+        <div class="timeline-marker">
+          <span class="timeline-icon">🚀</span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Going Professional: Freelance Start</h3>
+            <span class="timeline-date">2023 - 2024</span>
+          </div>
+          <button class="btn btn-sm btn-primary toggle-details">View Details</button>
+          <div class="timeline-details" style="display: none;">
+            <p class="mt-3">
+              Transitioned from learning to earning. Started freelance work offering penetration testing and
+              web development services. Built first production websites and conducted multiple security assessments.
+            </p>
+            <h5 class="mt-3">Key Milestones:</h5>
+            <ul>
+              <li>First freelance penetration testing client engagement</li>
+              <li>Delivered 5+ production websites</li>
+              <li>Conducted 15+ security assessments</li>
+              <li>Built this portfolio website</li>
+              <li>Started blogging about security and development</li>
+            </ul>
+            <h5 class="mt-3">Skills Acquired:</h5>
+            <div class="skill-badges">
+              <span class="badge bg-warning">Client Communication</span>
+              <span class="badge bg-warning">Project Management</span>
+              <span class="badge bg-warning">Security Consulting</span>
+              <span class="badge bg-warning">Full Stack Basics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestone 4: Current & Future -->
+      <div class="timeline-item active">
+        <div class="timeline-marker">
+          <span class="timeline-icon">🎯</span>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Current & Future: Growing Expertise</h3>
+            <span class="timeline-date">2024 - Present</span>
+          </div>
+          <button class="btn btn-sm btn-primary toggle-details">View Details</button>
+          <div class="timeline-details" style="display: none;">
+            <p class="mt-3">
+              Combining expertise in cybersecurity and web development. Pursuing advanced certifications
+              while expanding client base. Focus on secure web development and comprehensive security assessments.
+            </p>
+            <h5 class="mt-3">Current Focus:</h5>
+            <ul>
+              <li>Pursuing CompTIA Security+ certification</li>
+              <li>Building secure web applications</li>
+              <li>Expanding penetration testing services</li>
+              <li>Creating educational content through blogging</li>
+              <li>Contributing to open-source security projects</li>
+            </ul>
+            <h5 class="mt-3">Goals (Next 12 Months):</h5>
+            <div class="skill-badges">
+              <span class="badge bg-danger">CEH Certification</span>
+              <span class="badge bg-danger">20+ Client Projects</span>
+              <span class="badge bg-danger">Security+</span>
+              <span class="badge bg-danger">Advanced Backend Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Statistics Section -->
+    <div class="row mt-5 pt-4 border-top">
+      <div class="col-md-3 text-center mb-3">
+        <div class="stat-box">
+          <h2 class="stat-number" data-count="50">0</h2>
+          <p class="stat-label">Vulnerabilities Found</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center mb-3">
+        <div class="stat-box">
+          <h2 class="stat-number" data-count="20">0</h2>
+          <p class="stat-label">Projects Completed</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center mb-3">
+        <div class="stat-box">
+          <h2 class="stat-number" data-count="30">0</h2>
+          <p class="stat-label">Security Assessments</p>
+        </div>
+      </div>
+      <div class="col-md-3 text-center mb-3">
+        <div class="stat-box">
+          <h2 class="stat-number" data-count="3">0</h2>
+          <p class="stat-label">Years Learning & Growing</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 My Portfolio + Blog. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/timeline.js"></script>
+</body>
+</html>
